@@ -1,0 +1,33 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.data = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def succPredBST(self, root, key):
+        def findsuccessor(root,val):
+            successor = None
+            while root is not None :
+                if root.val <= val:
+                    root = root.right
+                else:
+                    successor = root
+                    root = root.left
+            return successor
+
+        def findpredecessor(root,val):
+            predecessor = None
+            while root is not None :
+                if root.val > val:
+                    root = root.left
+                else:
+                    predecessor  = root
+                    root = root.right
+            return predecessor 
+        pred = findpredecessor(root, key)
+        succ = findsuccessor(root, key)
+      # Make sure to return their values (or -1 if not found)
+        return [pred.val if pred else -1, succ.val if succ else -1]                    
+
