@@ -1,0 +1,61 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class BSTIterator:
+    def __init__(self, root, forward):
+        self.stack = []
+        self.forward = forward
+        self._pushAll(root)
+        
+    def hasNext(self):
+        return len(self.stack) > 0
+    
+    def next(self):
+        node = self.stack.pop()
+        val = node.val
+        if self.forward:
+            self._pushAll(node.right)
+        else:
+            self._pushAll(node.left)
+        return val
+    
+    def _pushAll(self, node):
+        while node:
+            self.stack.append(node)
+            node = node.left if self.forward else node.right
+
+class Solution(object):
+    def findTarget(self, root, k):
+        if root is None:
+            return False
+        leftIter = BSTIterator(root, forward=True)
+        rightIter = BSTIterator(root, forward=False)
+        
+        leftval = leftIter.next() if leftIter.hasNext() else None
+        rightval = rightIter.next() if rightIter.hasNext() else None
+
+        while leftval is not None and rightval is not None and leftval < rightval:
+            currentsum = leftval + rightval
+            if currentsum == k:
+                return True
+            elif currentsum < k:
+                if leftIter.hasNext():
+                    leftval = leftIter.next()
+                else:
+                    break
+            else:
+                if rightIter.hasNext():
+                    rightval = rightIter.next()
+                else:
+                    break
+        return False
