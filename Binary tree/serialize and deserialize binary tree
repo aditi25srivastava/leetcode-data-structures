@@ -1,0 +1,33 @@
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        if not root:
+            return ","
+            
+        result = [] #store the serialize values
+        queue =   deque([root])  # quese for BFS traversal
+
+        while queue:
+            node = queue.popleft() #pop the node front of the queue
+
+            if node:
+                result.append(str(node.val))
+                queue.append (node.left)
+                queue.append (node .right)
+
+            else:
+                result.append("#") # if node is none
+
+        return ','.join(result)  
