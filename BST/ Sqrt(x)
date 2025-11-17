@@ -1,0 +1,39 @@
+class Solution(object):
+    def mySqrt(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        if x < 0:
+            # According to the problem constraints, x is usually non-negative.
+            # Handle this case for robustness, though it's unlikely to be tested.
+            return 0
+            
+        if x == 0 or x == 1:
+            return x
+
+        left = 1
+        right = x
+        ans = 0
+
+        while left <= right:
+            mid = left + (right - left) // 2
+
+            # Use a long-long-like approach for mid*mid to prevent overflow
+            # in languages like C++, but Python handles large integers automatically.
+            mid_squared = mid * mid
+
+            if mid_squared == x:
+                # Found the exact integer square root.
+                return mid
+            elif mid_squared < x:
+                # The square of mid is too small.
+                # It could be our answer, but we look for a larger one.
+                ans = mid
+                left = mid + 1
+            else:  # mid_squared > x
+                # The square of mid is too large.
+                # We need to search in the lower half.
+                right = mid - 1
+        
+        return ans
