@@ -1,0 +1,27 @@
+class Solution(object):
+    def findMin(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        left, right = 0, len(nums) - 1
+        ans = nums[0]
+        
+        while left <= right:
+            # If the subarray is already sorted
+            if nums[left] <= nums[right]:
+                ans = min(ans, nums[left])
+                break
+
+            mid = (left + right) // 2
+            ans = min(ans, nums[mid])
+
+            # Left half is sorted
+            if nums[left] <= nums[mid]:
+                ans = min(ans, nums[left])
+                left = mid + 1
+            else:
+                # Right half is sorted
+                right = mid - 1
+        
+        return ans
