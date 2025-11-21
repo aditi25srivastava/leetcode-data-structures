@@ -1,0 +1,33 @@
+class Solution(object):
+    def findPeakGrid(self, mat):
+        """
+        :type mat: List[List[int]]
+        :rtype: List[int]
+        """
+        n, m = len(mat), len(mat[0])   # rows, cols
+        left, right = 0, m - 1         # binary search on columns
+
+        while left <= right:
+            mid = (left + right) // 2  # pick a middle column
+
+            # find the row with max element in this column
+            maxRow = 0
+            for i in range(n):
+                if mat[i][mid] > mat[maxRow][mid]:
+                    maxRow = i
+
+            # check left and right neighbors
+            leftNeighbor = mat[maxRow][mid - 1] if mid - 1 >= 0 else -1
+            rightNeighbor = mat[maxRow][mid + 1] if mid + 1 < m else -1
+
+            # if peak condition satisfied
+            if mat[maxRow][mid] >= leftNeighbor and mat[maxRow][mid] >= rightNeighbor:
+                return [maxRow, mid]
+
+            # move towards bigger neighbor
+            if rightNeighbor > mat[maxRow][mid]:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+        return [-1, -1]
