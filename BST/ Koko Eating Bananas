@@ -1,0 +1,28 @@
+import math
+class Solution(object):
+    def minEatingSpeed(self, piles, h):
+        """
+        :type piles: List[int]
+        :type h: int
+        :rtype: int
+        """
+        left, right = 1, max(piles)
+
+        def totalHours(speed):
+            hours = 0
+            for n in piles:
+              hours += math.ceil (float(n)/ speed)
+            return hours
+
+        while left < right:
+            mid = (left + right) // 2
+            totalH = totalHours(mid)
+
+            if totalH <= h:
+                right = mid
+            else:
+                left = mid + 1
+
+        return left
+        
+        
