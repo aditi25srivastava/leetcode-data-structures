@@ -1,0 +1,40 @@
+class Solution(object):
+    def minDays(self, bloomDay, m, k):
+        """
+        :type bloomDay: List[int]
+        :type m: int
+        :type k: int
+        :rtype: int
+        """
+        n = len(bloomDay)
+
+        # If not enough flowers
+        if m * k > n:
+            return -1
+
+        # helper function: check if we can make m bouquets by `day`
+        def possible(day, bloomDay, m, k):
+            cnt = 0
+            bouquets = 0
+            for val in bloomDay:
+                if val <= day:
+                    cnt += 1
+                    if cnt == k:
+                        bouquets += 1
+                        cnt = 0
+                else:
+                    cnt = 0
+            return bouquets >= m
+
+        # binary search on days
+        left, right = min(bloomDay), max(bloomDay)
+        ans = -1
+        while left <= right:
+            mid = (left + right) // 2
+            if possible(mid, bloomDay, m, k): 
+                ans = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+
+        return ans
