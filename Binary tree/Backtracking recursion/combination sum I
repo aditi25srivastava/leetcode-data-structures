@@ -1,0 +1,24 @@
+class Solution(object):
+    def combinationSum(self,candidates,target):
+        """
+        :type candidates: List[int]
+        :type target: int
+        :rtype: List[List[int]]
+        """
+        ans = []
+        def helper(index,target,ds):
+            if target == 0:
+               ans.append(list(ds))
+               return 
+        
+            if index == len(candidates) or target < 0:
+               return 
+            # Pick the current candidate
+            ds.append(candidates[index]) 
+            helper(index,target - candidates[index],ds) 
+            ds.pop()
+            # Skip the current candidate
+            helper(index + 1, target,ds)
+        helper(0, target,[])
+        return ans    
+
