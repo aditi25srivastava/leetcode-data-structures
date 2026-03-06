@@ -1,0 +1,16 @@
+class Solution(object):
+    def checkOnesSegment(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        found_zero = False
+
+        for  c in s:
+            if c == '0':
+                found_zero = True
+            elif found_zero == True and c == '1':
+                return False
+
+        return True        
+        
