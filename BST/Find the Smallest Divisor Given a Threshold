@@ -1,0 +1,27 @@
+import math
+class Solution(object):
+    def smallestDivisor(self, nums, threshold):
+        """
+        :type nums: List[int]
+        :type threshold: int
+        :rtype: int
+        """
+
+        def sumByDiv(nums, div):
+            total = 0
+            for num in nums:
+                total += math.ceil(float(num) / div)
+            return total
+
+        left, right = 1, max(nums)
+        ans = -1
+
+        while left <= right:
+            mid = (left + right) // 2
+            if sumByDiv(nums, mid) <= threshold:
+                ans = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+
+        return ans

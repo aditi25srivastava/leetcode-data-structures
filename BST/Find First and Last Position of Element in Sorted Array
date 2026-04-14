@@ -1,0 +1,31 @@
+class Solution(object):
+    def searchRange(self, nums, target):
+        def binary_search(nums, target, find_first):
+            """
+            :type nums: List[int]
+            :type target: int
+            :rtype: List[int]
+            """
+
+            left,right = 0, len(nums) - 1
+            result = -1
+            while left <= right:
+                mid = (left + right) // 2
+                if nums [mid] == target:
+                   result = mid
+                   if find_first:
+                    right = mid - 1 # keep searching left
+                   else:
+                        left = mid + 1  # keep searching right   
+                    
+                elif nums [mid] < target:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+            return result  
+        first_pos = binary_search(nums, target, True)
+        last_pos = binary_search(nums, target, False)
+        return [first_pos, last_pos]          
+
+        
+        

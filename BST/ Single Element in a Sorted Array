@@ -1,0 +1,24 @@
+class Solution(object):
+    def singleNonDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        left, right = 0, len(nums) - 1
+
+        while left < right:
+           mid = (left + right) // 2
+
+           #Ensure mid is even
+           if mid % 2 == 1:
+              mid -= 1
+
+            # single elemnts is on the right half
+           if nums[mid] == nums[mid + 1]:
+                left = mid + 2
+           else:
+            # single elements is on the left half
+                right = mid
+
+        return nums[left]             
+      

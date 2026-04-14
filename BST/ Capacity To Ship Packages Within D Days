@@ -1,0 +1,37 @@
+class Solution(object):
+    def shipWithinDays(self, weights, days):
+        """
+        :type weights: List[int]
+        :type days: int
+        :rtype: int
+        """
+        def isFeasible(maxCapacity):
+            daysRequired = 1
+            currentLoad = 0
+
+            for weight in weights:
+                if weight > maxCapacity:
+                    return False
+
+                currentLoad += weight
+
+                if currentLoad > maxCapacity:
+                    daysRequired += 1
+                    currentLoad = weight
+
+            return daysRequired <= days
+
+        minCapacity = max(weights)
+        maxCapacity = sum(weights)
+        optimalCapacity = maxCapacity
+
+        while minCapacity <= maxCapacity:
+            midCapacity = (minCapacity + maxCapacity) // 2
+
+            if isFeasible(midCapacity):
+                optimalCapacity = midCapacity
+                maxCapacity = midCapacity - 1
+            else:
+                minCapacity = midCapacity + 1
+
+        return optimalCapacity

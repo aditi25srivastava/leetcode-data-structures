@@ -1,0 +1,22 @@
+class Solution(object):
+    def nextGreaterElements(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        next_greater = [-1] * n # Result array, initialized with -1
+        stack = []  # Monotonic stack
+
+        # Traverse the array twice (simulate circular array)
+        for i in range (2 * n -1,-1,-1):
+            while stack and stack[-1] <= nums[i % n]:
+                stack.pop() # Pop smaller elements
+            if stack:
+                next_greater [i % n] = stack [-1] # Top of stack 
+            stack.append(nums[i % n]) # Push current element
+
+        return next_greater           
+
+
+        

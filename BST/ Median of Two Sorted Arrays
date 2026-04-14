@@ -1,0 +1,59 @@
+class Solution(object):
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+        class Solution(object):
+    def findMedianSortedArrays(self, nums1, nums2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+
+        # Ensure nums1 is the smaller array
+        if len(nums1) > len(nums2):
+            nums1, nums2 = nums2, nums1
+
+        m, n = len(nums1), len(nums2)
+        total = m + n                   # Total number of elements
+        half = (total + 1) // 2         # Half length (for partitioning)
+
+        # Binary search boundaries on nums1
+        left, right = 0, m
+
+        while left <= right:
+            # Partition nums1
+            partition_1 = (left + right) // 2
+            # Partition nums2 accordingly
+            partition_2 = half - partition_1
+
+            # Left side max and right side min for nums1
+            max_left1 = float('-inf') if partition_1 == 0 else nums1[partition_1 - 1]
+            min_right1 = float('inf') if partition_1 == m else nums1[partition_1]
+
+            # Left side max and right side min for nums2
+            max_left2 = float('-inf') if partition_2 == 0 else nums2[partition_2 - 1]
+            min_right2 = float('inf') if partition_2 == n else nums2[partition_2]
+
+        
+            # Check if partition is valid
+            if max_left1 <= min_right2 and max_left2 <= min_right1:
+                # Odd total length → median is max of left halves
+                if total % 2 == 1:
+                    return max(max_left1, max_left2)
+                # Even total length → average of max(left) & min(right)
+                else:
+                    return (max(max_left1, max_left2) + min(min_right1, min_right2)) / 2.0
+
+            # If nums1's left partition is too big → move search left
+            elif max_left1 > min_right2:
+                right = partition_1 - 1
+            # Else, move search right
+            else:
+                left = partition_1 + 1
+
+        # Edge case (should never hit this if inputs are valid)
+        return 
