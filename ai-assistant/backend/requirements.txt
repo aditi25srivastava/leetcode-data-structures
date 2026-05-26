@@ -1,0 +1,6 @@
+fastapi==0.115.2
+uvicorn[standard]==0.23.2
+httpx==0.27.0
+pydantic==2.10.15
+motor==4.4.0
+python-dotenv==1.0.0
