@@ -1,0 +1,14 @@
+class Solution(object):
+    def missingNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        xor1 = 0
+        xor2 = 0
+        n = len(nums)
+        for i in range (len(nums)):
+            xor1 ^= i 
+            xor2 ^= nums[i]
+        xor1 ^= n    
+        return xor1 ^ xor2    
