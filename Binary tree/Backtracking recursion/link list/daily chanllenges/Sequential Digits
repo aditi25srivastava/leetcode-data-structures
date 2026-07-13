@@ -1,0 +1,23 @@
+class Solution(object):
+    def sequentialDigits(self, low, high):
+        """
+        :type low: int
+        :type high: int
+        :rtype: List[int]
+        """
+        digit = "123456789"
+        ans = []
+        min_len = len(str(low)) 
+        max_len = len(str(high))
+        for length in range (min_len ,max_len + 1):
+            for start in range (0,10 - length):
+                num = int(digit[start:start+length])
+                if  low <=  num <= high:
+                    ans.append(num)
+            ans.sort()        
+        return ans         
+
+
+
+
+        
