@@ -1,0 +1,33 @@
+class Solution(object):
+    def majorityElement(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        count = 0
+        candidate = None
+        for num in nums:
+            if count == 0:
+                count = 1
+                candidate = num
+            elif num == candidate:
+                count += 1
+            else:
+                count -= 1
+
+        count1 = 0
+        for num in nums:
+            if num == candidate:
+                count1 += 1
+        if count1 > len(nums) // 2:
+            return candidate
+        else:
+            return -1 
+         
+
+
+
+            
+        
+
+        
