@@ -1,0 +1,21 @@
+class Solution(object):
+    def rearrangeArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        ans = [0] * n
+        posIdx = 0
+        negIdx = 1
+        for i in nums:
+            if i > 0:
+                ans[posIdx] = i
+                posIdx += 2
+            else:
+                ans[negIdx] = i
+                negIdx += 2
+        return ans    
+
+
+        
