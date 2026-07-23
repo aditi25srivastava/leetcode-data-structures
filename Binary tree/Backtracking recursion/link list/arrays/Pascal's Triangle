@@ -1,0 +1,20 @@
+class Solution(object):
+    def get_row(self, numRows):
+        """
+        :type numRows: int
+        :rtype: List[List[int]]
+        """
+        row = [1]
+        ans = 1
+        for i in range(1, numRows):
+            ans = ans * (numRows - i) // i
+            row.append(ans)
+        return row
+
+    def generate(self, numRows): 
+        triangle = []
+        for i in range(1, numRows + 1):
+            triangle.append(self.get_row(i))
+        return triangle       
+
+        
