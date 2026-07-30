@@ -1,0 +1,44 @@
+class Solution(object):
+    def findErrorNums(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n = len(nums)
+        xor = 0
+   
+        for ele in nums:
+            xor = xor ^ ele
+        for i in range(1, n + 1):
+            xor = xor ^ i
+
+        set_bit = xor & -xor
+        bucket1 = 0
+        bucket2 = 0
+        for ele in nums:
+            if (ele & set_bit) != 0:
+                bucket1 ^= ele
+            else:
+                bucket2 ^= ele
+
+        for i in range(1, n + 1):
+            if (i & set_bit) != 0:
+                bucket1 ^= i
+            else:
+                bucket2 ^= i
+
+        count = 0        
+        for ele in nums:
+            if ele == bucket1:
+                count += 1
+
+        if count == 2:
+            repeating = bucket1
+            missing = bucket2
+        else:
+            repeating = bucket2
+            missing = bucket1
+
+        return[repeating, missing]           
+
+ 
