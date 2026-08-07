@@ -1,0 +1,12 @@
+class Solution(object):
+    def titleToNumber(self, columnTitle):
+        """
+        :type columnTitle: str
+        :rtype: int
+        """
+        answer = 0
+        for ch in columnTitle:
+            value = ord(ch) - ord('A') + 1
+            answer = answer * 26 + value
+        return answer     
+
