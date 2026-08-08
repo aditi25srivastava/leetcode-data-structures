@@ -1,0 +1,35 @@
+class Solution(object):
+    def isNumber(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """ 
+
+        digitSeen = False
+        dotSeen = False
+        eSeen = False
+        digitAfterE = True
+        for i in range(len(s)):
+            ch = s[i]
+            if ch.isdigit():
+                digitSeen = True
+                if eSeen:
+                    digitAfterE = True
+            elif ch == ".":
+                if dotSeen or eSeen:
+                    return False
+                dotSeen = True
+            elif ch == 'e' or ch == 'E':
+                if eSeen or not digitSeen:
+                    return False
+                eSeen = True
+                digitAfterE = False
+
+            elif ch == '+' or ch == '-':
+                if i != 0 and s[i-1] not in ('e', 'E'):
+                    return False
+            else:
+                return False
+        return digitSeen and digitAfterE    
+
+        
