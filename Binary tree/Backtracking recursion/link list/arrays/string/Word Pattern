@@ -1,0 +1,25 @@
+class Solution(object):
+    def wordPattern(self, pattern, s):
+        """
+        :type pattern: str
+        :type s: str
+        :rtype: bool
+        """
+        words = s.split()
+        if len(pattern) != len(words):
+            return False
+        patternToWord = {}
+        WordTopattern = {}
+        for i in range(len(pattern)):
+            p = pattern[i]
+            w = words[i]
+            if p in patternToWord:
+                if patternToWord[p] != w:
+                    return False
+            if w in WordTopattern:
+                if WordTopattern[w] != p:
+                    return False
+            patternToWord[p] = w
+            WordTopattern[w] = p      
+        return True
+    
