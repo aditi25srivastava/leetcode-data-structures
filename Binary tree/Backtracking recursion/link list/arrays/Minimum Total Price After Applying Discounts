@@ -1,0 +1,24 @@
+class Solution(object):
+    def minPrice(self, prices, discounts):
+        """
+        :type prices: List[int]
+        :type discounts: List[int]
+        :rtype: float
+        """
+        prices.sort()
+        discounts.sort()
+        i = len(prices) - 1
+        j = len(discounts) -1
+        total = 0.0
+        while i >= 0:
+            if  j >= 0:
+                total += prices[i] * (100 - discounts[j]) / 100.0 
+                i -= 1
+                j -= 1
+            else:
+                total += prices[i]
+                i -= 1
+        return total        
+        
+    
+        
