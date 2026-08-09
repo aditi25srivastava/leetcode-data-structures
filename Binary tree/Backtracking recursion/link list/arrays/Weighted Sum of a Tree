@@ -1,0 +1,28 @@
+class Solution(object):
+    def weightedSum(self, parent, nums):
+        """
+        :type parent: List[int]
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(parent)
+        childern = [[] for _ in range(n)]
+        for i in range(1, n):
+            childern[parent[i]].append(i)
+        depth = [0] * n
+        depth[0] = 1
+
+        queue = deque([0])
+        h = 1
+        while queue:
+            node = queue.popleft()
+            for child in childern[node]:
+                depth[child]  = depth[node] + 1
+                h = max( h, depth[child])
+                queue.append(child)
+                
+        total = 0
+        for i in range(n):
+            total += nums[i] * (h - depth[i] + 1)
+            
+        return total    
