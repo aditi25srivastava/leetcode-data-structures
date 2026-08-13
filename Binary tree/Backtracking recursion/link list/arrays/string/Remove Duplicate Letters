@@ -1,0 +1,30 @@
+class Solution(object):
+    def removeDuplicateLetters(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+
+        stack = []
+        seen = set()
+        count = Counter(s)
+
+        for ch in s:
+
+            count[ch] -= 1
+
+            if ch in seen:
+                continue
+
+            while stack and stack[-1] > ch and count[stack[-1]] > 0:
+                removed = stack.pop()
+                seen.remove(removed)
+            stack.append(ch)
+            seen.add(ch)
+        return "".join(stack)
+
+
+
+
+
+        
