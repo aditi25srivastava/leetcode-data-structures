@@ -1,0 +1,32 @@
+class Solution(object):
+    def decodeString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        num_stack = []
+        str_stack = []
+        current = ""
+        number = 0
+        for ch in s:
+            if ch.isdigit():
+                number = number * 10 + int(ch)
+            elif ch == '[':
+                num_stack.append(number)
+                str_stack.append(current) 
+                number = 0
+                current = ""
+            elif ch == ']':
+                k = num_stack.pop()
+                prev = str_stack.pop()
+                current = prev + current * k
+            else:
+                current = current + ch   
+        return current 
+            
+
+
+
+    
+
+  
