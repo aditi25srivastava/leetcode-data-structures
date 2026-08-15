@@ -1,0 +1,26 @@
+class Solution(object):
+    def countPrefixSuffixPairs(self, words):
+        """
+        :type words: List[str]
+        :rtype: int
+        """
+        answer = 0
+        root = {}
+        for word in words:
+            node = root 
+            for i in range(len(word)):
+                left = word[i]
+                right = word[len(word) - 1 - i]
+                pair = left, right
+                if pair not in node:
+                    node[pair] = {'count': 0}
+                node = node[pair]
+                answer += node['count']
+            node['count'] += 1
+        return answer        
+
+
+            
+
+
+       
