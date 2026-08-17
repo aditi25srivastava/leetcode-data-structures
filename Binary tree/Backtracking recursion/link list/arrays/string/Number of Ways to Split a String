@@ -1,0 +1,35 @@
+class Solution(object):
+    def numWays(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """ 
+        n = len(s)
+        ones = s.count('1')
+        MOD = 10**9 + 7 
+
+        if ones == 0:
+            return ((n -1) * (n -2) // 2) % MOD
+
+       
+        if ones % 3 != 0:
+            return 0
+
+
+        target = ones//3
+        count = 0
+        first_ways = 0
+        second_ways = 0
+
+        for ch in s:
+            if ch == '1':
+                count += 1
+            if count == target:
+                first_ways += 1
+
+            elif count == 2 * target:
+                second_ways += 1
+               
+        return (first_ways * second_ways) % MOD             
+
+        
