@@ -1,0 +1,28 @@
+class Solution(object):
+    def numDifferentIntegers(self, word):
+        """
+        :type word: str
+        :rtype: int
+        """
+        seen = set()
+        i = 0
+        while i < len(word):
+            if word[i].isdigit():
+                start = i
+                while i < len(word) and word[i].isdigit():
+                    i += 1
+                num = word[start:i]
+                num = num.lstrip('0')
+                if num == "":
+                    num = "0"
+                seen.add(num)
+
+            else:
+                i += 1
+
+        return len(seen)
+        
+
+       
+
+       
