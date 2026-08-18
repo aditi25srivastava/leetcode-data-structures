@@ -1,0 +1,25 @@
+class Solution(object):
+    def numberOfWays(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        total_zeros = s.count('0')
+        total_ones = s.count('1')
+        left_ones = 0
+        left_zeros = 0
+        answer = 0
+        for ch in s:
+            if ch == '0':
+                right_ones = total_ones - left_ones
+                answer += left_ones * right_ones
+                left_zeros += 1
+
+            else:
+                right_zeros = total_zeros - left_zeros
+                answer += left_zeros * right_zeros
+                left_ones += 1
+        return answer        
+
+
+        
