@@ -1,0 +1,36 @@
+class Solution(object):
+    def findWords(self, words):
+        """
+        :type words: List[str]
+        :rtype: List[str]
+        """
+
+        row1 = set("qwertyuiop")
+        row2 = set("asdfghjkl")
+        row3 = set("zxcvbnm")
+
+        answer = []
+        for word in words:
+
+            first_char = word[0].lower()
+            if first_char in row1:
+                row = row1
+            elif first_char in row2:
+                row = row2
+            else:
+                row = row3     
+
+            vaild = True
+            for ch in word:
+                if ch.lower() not in row:
+                    vaild = False  
+                    break
+            if vaild:
+                answer.append(word)
+        return answer             
+
+
+
+    
+
+    
