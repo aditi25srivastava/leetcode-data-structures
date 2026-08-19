@@ -1,0 +1,46 @@
+class Solution(object):
+    def fullJustify(self, words, maxWidth):
+        """
+        :type words: List[str]
+        :type maxWidth: int
+        :rtype: List[str]
+        """
+        result = []
+        i = 0
+        while i < len(words):
+            j = i
+            line_length = 0
+            while j < len(words) and line_length + len(words[j]) + (j - i) <= maxWidth:
+                line_length += len(words[j])
+                j += 1
+    
+            words_in_line = words[i:j]
+            num_words = j - i
+            totalSpaces = maxWidth - line_length
+            if j == len(words) or num_words == 1:
+                line = " ".join(words_in_line)
+                line += " " * (maxWidth - len(line))
+            else:
+                gaps = num_words - 1
+                space = totalSpaces // gaps
+                extra = totalSpaces % gaps
+                line = ""
+                for k in range(gaps):
+                    line += words_in_line[k]
+                    line += " " * space
+                    if k < extra:
+                        line += " "
+                line += words_in_line[-1]        
+        
+            result.append(line)
+            i = j
+        return result            
+
+
+
+
+
+      
+   
+
+        
