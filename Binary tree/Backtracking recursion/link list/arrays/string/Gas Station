@@ -1,0 +1,31 @@
+class Solution(object):
+    def canCompleteCircuit(self, gas, cost):
+        """
+        :type gas: List[int]
+        :type cost: List[int]
+        :rtype: int
+        """
+        total_Gas = 0
+        total_cost = 0
+
+        tank = 0
+        start = 0
+        for i in range(len(gas)):
+            total_Gas += gas[i]
+            total_cost += cost[i]
+            tank += gas[i] - cost[i]
+# This needs to be inside the loop to check our fuel at each step            
+            if tank < 0:
+                start = i + 1
+                tank = 0
+     # If overall cost is more than overall gas, it's a no-go            
+        if total_Gas < total_cost:
+            return -1     
+        return start
+
+
+    
+
+    
+
+    
