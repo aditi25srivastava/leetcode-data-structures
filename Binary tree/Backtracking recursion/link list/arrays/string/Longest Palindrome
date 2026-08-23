@@ -1,0 +1,32 @@
+from collections import Counter
+class Solution(object):
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        # This counts how many times each character appears
+        count = Counter(s)
+
+        length = 0
+        hasOdd = False
+        # We only care about the frequency numbers
+        for freq in count.values():
+            pairs = freq // 2
+            length += pairs * 2
+            # If there's a leftover character, we note it
+            if freq % 2 == 1:
+                hasOdd = True
+    # After checking all letters, if we had any odd counts, 
+       # we can place exactly one of them in the middle.            
+        if hasOdd:
+            length += 1 
+        return length           
+
+
+
+    
+
+    
+
+    
