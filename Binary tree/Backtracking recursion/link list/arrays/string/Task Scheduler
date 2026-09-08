@@ -1,0 +1,17 @@
+from collections import Counter
+class Solution(object):
+    def leastInterval(self, tasks, n):
+        """
+        :type tasks: List[str]
+        :type n: int
+        :rtype: int
+        """
+        count = Counter(tasks)
+        maxFreq = max(count.values())
+        maxFreqTask = 0
+        for freq in count.values():
+            if freq == maxFreq:
+                maxFreqTask += 1
+        formula = (maxFreq - 1) * (n + 1) + maxFreqTask
+        return max(len(tasks), formula)
+        
