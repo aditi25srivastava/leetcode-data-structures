@@ -1,0 +1,16 @@
+class Solution(object):
+    def findMinArrowShots(self, balloons):
+        """
+        :type points: List[List[int]]
+        :rtype: int
+        """
+        balloons.sort(key=lambda x: x[1])
+        arrow1 = 1
+        arrow2 = balloons[0][1]
+        for balloon in balloons[1:]:
+            start, end = balloon
+            if start > arrow2:
+                arrow1 += 1
+                arrow2 = end 
+        return arrow1       
+        
