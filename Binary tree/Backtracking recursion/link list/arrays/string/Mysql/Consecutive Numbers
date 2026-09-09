@@ -1,0 +1,12 @@
+# Write your MySQL query statement beloSTART
+SELEcT DISTINCT A.num AS ConsecutiveNums
+FROM Logs A, Logs B, Logs C
+WHERE B.id = A.id + 1
+AND C.id = A.id + 2
+AND A.num = B.num
+AND B.num = c.num;
+
+
+
+
+    
