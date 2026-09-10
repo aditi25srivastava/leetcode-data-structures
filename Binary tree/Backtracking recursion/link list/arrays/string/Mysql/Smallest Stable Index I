@@ -1,0 +1,25 @@
+class Solution(object):
+    def firstStableIndex(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        n = len(nums)
+        # Initialize the right array to store suffix minimums
+        right = [0] * n
+        right[n - 1] = nums[n - 1]
+        # Loop backward to fill in the suffix minimums
+        for i in range(n - 2, -1, -1):
+            right[i] = min(right[i+1], nums[i])
+        # Initialize left with the first element    
+        left = nums[0]
+        for i in range(n):
+            left = max(left, nums[i])
+            score = left - right[i]
+            if score <= k:
+                return i
+        return -1        
+   
+
+
