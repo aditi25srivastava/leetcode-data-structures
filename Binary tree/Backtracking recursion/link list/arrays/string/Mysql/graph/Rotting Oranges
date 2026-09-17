@@ -1,0 +1,48 @@
+class Solution(object):
+    def orangesRotting(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        rows = len(grid)
+        cols = len(grid[0])
+        queue = deque()
+        fresh = 0
+        for row in range(rows):
+            for col in range(cols):
+                if grid[row][col] == 2:
+                    queue.append((row, col))
+                elif grid[row][col] == 1:
+                    fresh += 1
+        minutes = 0
+        while queue and fresh > 0:
+            size = len(queue)
+            for _ in range(size):
+                row, col = queue.popleft()
+                if row > 0 and grid[row - 1][col] == 1:
+                    grid[row - 1][col] = 2
+                    fresh -= 1
+                    queue.append((row - 1, col))
+                if row < rows - 1 and grid[row + 1][col] == 1:
+                    grid[row + 1][col] = 2
+                    fresh -= 1
+                    queue.append((row + 1, col))
+                if col > 0 and grid[row][col - 1] == 1:
+                    grid[row][col - 1] = 2
+                    fresh -= 1
+                    queue.append((row,col - 1))
+                if col < cols - 1 and grid[row][col + 1] == 1:
+                    grid[row][col + 1] = 2
+                    fresh -= 1
+                    queue.append((row ,col + 1))
+            minutes += 1
+        if fresh > 0:
+            return -1
+            
+        return minutes            
+
+
+                        
+                        
+                
+        
