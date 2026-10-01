@@ -1,0 +1,42 @@
+class Solution(object):
+    def findOrder(self, numCourses, prerequisites):
+        """
+        :type numCourses: int
+        :type prerequisites: List[List[int]]
+        :rtype: List[int]
+        """
+        graph = [[] for _ in range(numCourses)]
+        for course, pre in prerequisites:
+            graph[pre].append(course)
+        visited = set()
+        path = set()
+        result = []  
+        def dfs(course):
+            if course in path:
+                return True
+            if course in visited:
+                return False
+            visited.add(course)
+            path.add(course)
+            for next_course in graph[course]:
+                if dfs(next_course):
+                    return True
+            path.remove(course)
+            result.append(course)
+            return False 
+        for course in range(numCourses):
+            if dfs(course):
+                return[]
+        result.reverse()
+        return result            
+
+
+
+
+
+        
+
+    
+
+    
+
