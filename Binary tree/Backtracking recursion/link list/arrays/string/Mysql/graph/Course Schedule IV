@@ -1,0 +1,38 @@
+class Solution(object):
+    def checkIfPrerequisite(self, numCourses, prerequisites, queries):
+        """
+        :type numCourses: int
+        :type prerequisites: List[List[int]]
+        :type queries: List[List[int]]
+        :rtype: List[bool]
+        """
+        graph = [[] for _ in range(numCourses)]
+        # Fixed: prerequisites are formatted as [prereq, course]
+        for pre, course in prerequisites:
+            graph[pre].append(course)
+            
+        # We can use a memoization table to avoid redundant searches
+        memo = {}
+        
+        def dfs(start, target, visited):
+            if start == target:
+                return True 
+                
+            if (start, target) in memo:
+                return memo[(start, target)]
+                
+            visited.add(start) 
+            for next_course in graph[start]:
+                if next_course not in visited:
+                    if dfs(next_course, target, visited):
+                        memo[(start, target)] = True
+                        return True
+                        
+            memo[(start, target)] = False
+            return False
+            
+        answer = []
+        for u, v in queries:
+            answer.append(dfs(u, v, set()))
+            
+        return answer
