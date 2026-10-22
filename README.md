@@ -30,12 +30,27 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Topological Sort
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+## Array
+|  |
+| ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+## Hash Table
+|  |
+| ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+## String
+|  |
+| ------- |
+| [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 <!---LeetCode Topics End-->
