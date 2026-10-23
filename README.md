@@ -30,20 +30,24 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Topological Sort
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Array
 |  |
 | ------- |
+| [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Hash Table
 |  |
@@ -53,4 +57,8 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 <!---LeetCode Topics End-->
