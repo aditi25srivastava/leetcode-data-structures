@@ -26,6 +26,7 @@ Master core DSA topics for FAANG-level problem solving.
 ## Breadth-First Search
 |  |
 | ------- |
+| [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 ## Graph Theory
@@ -56,10 +57,12 @@ Master core DSA topics for FAANG-level problem solving.
 ## Hash Table
 |  |
 | ------- |
+| [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## String
 |  |
 | ------- |
+| [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Dynamic Programming
 |  |
@@ -69,4 +72,8 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->
