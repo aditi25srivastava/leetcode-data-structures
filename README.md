@@ -57,6 +57,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Hash Table
@@ -101,4 +102,9 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+## Sorting
+|  |
+| ------- |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 <!---LeetCode Topics End-->
