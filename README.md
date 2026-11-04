@@ -62,6 +62,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Hash Table
 |  |
@@ -69,6 +70,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## String
 |  |
 | ------- |
@@ -79,6 +81,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Backtracking
 |  |
 | ------- |
@@ -94,6 +97,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 ## Shortest Path
 |  |
 | ------- |
@@ -109,9 +113,14 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 ## Sorting
 |  |
 | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+## Sliding Window
+|  |
+| ------- |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 <!---LeetCode Topics End-->
