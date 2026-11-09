@@ -66,6 +66,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
 | [1882-process-tasks-using-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1882-process-tasks-using-servers) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
@@ -107,6 +108,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
 | [1882-process-tasks-using-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1882-process-tasks-using-servers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -163,4 +165,12 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
+## Simulation
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+## Ordered Set
+|  |
+| ------- |
+| [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 <!---LeetCode Topics End-->
