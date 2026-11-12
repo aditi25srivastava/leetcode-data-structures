@@ -72,6 +72,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2747-count-zero-request-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2747-count-zero-request-servers) |
+| [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3693-climbing-stairs-ii) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
