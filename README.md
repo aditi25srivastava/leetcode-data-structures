@@ -22,6 +22,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
@@ -32,6 +33,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
@@ -40,6 +42,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
@@ -93,6 +96,7 @@ Master core DSA topics for FAANG-level problem solving.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3693-climbing-stairs-ii) |
@@ -110,6 +114,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
@@ -119,6 +124,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
 ## Dijkstra's Algorithm
 |  |
