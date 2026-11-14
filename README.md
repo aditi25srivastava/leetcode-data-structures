@@ -33,6 +33,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
+| [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
@@ -66,6 +67,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
@@ -86,6 +88,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2747-count-zero-request-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2747-count-zero-request-servers) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -94,6 +97,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Dynamic Programming
 |  |
@@ -112,6 +116,7 @@ Master core DSA topics for FAANG-level problem solving.
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
