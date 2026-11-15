@@ -73,6 +73,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
 | [1882-process-tasks-using-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1882-process-tasks-using-servers) |
@@ -105,6 +106,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
@@ -150,6 +152,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [0009-palindrome-number](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0009-palindrome-number) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3736-minimum-moves-to-equal-array-elements-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3736-minimum-moves-to-equal-array-elements-iii) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3789-minimum-cost-to-acquire-required-items) |
@@ -224,5 +227,6 @@ Master core DSA topics for FAANG-level problem solving.
 ## Prefix Sum
 |  |
 | ------- |
+| [1524-number-of-sub-arrays-with-odd-sum](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [3364-minimum-positive-sum-subarray](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3364-minimum-positive-sum-subarray) |
 <!---LeetCode Topics End-->
