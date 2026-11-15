@@ -47,12 +47,14 @@ Master core DSA topics for FAANG-level problem solving.
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Topological Sort
 |  |
 | ------- |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1203-sort-items-by-groups-respecting-dependencies) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 ## Directed Acyclic Graph
@@ -103,6 +105,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2050-parallel-courses-iii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2050-parallel-courses-iii) |
 | [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3693-climbing-stairs-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/3693-climbing-stairs-ii) |
@@ -133,12 +136,14 @@ Master core DSA topics for FAANG-level problem solving.
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Math
 |  |
 | ------- |
