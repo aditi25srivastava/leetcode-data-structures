@@ -1,5 +1,5 @@
 # leetcode
-A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2] (https://chromewebstore.google.com/detail/leethub-v2/mhanfgfagplhgemhjfeolkkdidbakocm?hl=en) |
+A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://chromewebstore.google.com/detail/leethub-v2/mhanfgfagplhgemhjfeolkkdidbakocm?hl=en)
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Depth-First Search
