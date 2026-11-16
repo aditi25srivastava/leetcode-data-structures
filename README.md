@@ -102,6 +102,7 @@ Master core DSA topics for FAANG-level problem solving.
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2243-calculate-digit-sum-of-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -196,6 +197,7 @@ Master core DSA topics for FAANG-level problem solving.
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2243-calculate-digit-sum-of-a-string) |
 ## Ordered Set
 |  |
 | ------- |
