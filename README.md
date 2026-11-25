@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -27,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
@@ -194,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1584-min-cost-to-connect-all-points](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1631-path-with-minimum-effort) |
