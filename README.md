@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0797-all-paths-from-source-to-target](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0797-all-paths-from-source-to-target) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
 | [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0743-network-delay-time) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1352-product-of-the-last-k-numbers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1352-product-of-the-last-k-numbers) |
@@ -92,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2747-count-zero-request-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2747-count-zero-request-servers) |
@@ -103,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0126-word-ladder-ii) |
 | [0433-minimum-genetic-mutation](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0433-minimum-genetic-mutation) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [0752-open-the-lock](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0752-open-the-lock) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2124-check-if-all-as-appears-before-all-bs](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2124-check-if-all-as-appears-before-all-bs) |
@@ -177,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2567-minimum-score-by-changing-two-elements](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2747-count-zero-request-servers](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/2747-count-zero-request-servers) |
@@ -204,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/0721-accounts-merge) |
 | [1267-count-servers-that-communicate](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1267-count-servers-that-communicate) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1584-min-cost-to-connect-all-points](https://github.com/aditi25srivastava/leetcode-data-structures/tree/master/1584-min-cost-to-connect-all-points) |
